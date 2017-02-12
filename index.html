@@ -289,7 +289,7 @@
 					</blockquote>    
 					<div class="source">
 						<div class="name">Rodolphe KRAUSS</div>
-						<div class="position">Fintech / Digital Marketing & Communication Manager, Cozmozeß</div>
+						<div class="position">Fintech / Digital Marketing & Communication Manager, Cozmoze</div>
 					</div><!--//source-->   
 												   
 				</div><!--//item-->
@@ -354,7 +354,7 @@ Pour conclure Hongpeng est un Développeur compétent et assidu.</p>
 
 <footer class="footer text-center">
 	<div class="container">
-		<small class="copyright">Copyright &copy; 2016. scarecrowang All rights reserved.<a target="_blank" href="#"></a></small>
+		<small class="copyright">Copyright &copy; <span id='year'>2016</span> scarecrowang All rights reserved.<a target="_blank" href="#"></a></small>
 	</div><!--//container-->
 </footer>
 
@@ -371,7 +371,13 @@ Pour conclure Hongpeng est un Développeur compétent et assidu.</p>
 <script type="text/javascript" src="assets/js/main.js"></script>
 
 <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-<script src="assets/js/demo/style-switcher.js"></script>     
+<script src="assets/js/demo/style-switcher.js"></script>
+<script type="text/javascript">
+	var date = new Date;
+	var year = date.getFullYear();
+	var yearDom = document.getElementById("year");
+	yearDom.innerHTML = year;
+</script>
 
 </body>
 </html>

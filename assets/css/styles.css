@@ -156,7 +156,9 @@ a.btn:hover {
   width: 160px;
   height: 160px;
   top: -80px;
-  margin-left: -80px;
+  margin: auto;
+  left:0;
+  right:0;
 }
 .header .name {
   font-size: 48px;
